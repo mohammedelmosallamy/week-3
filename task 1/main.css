@@ -1,0 +1,29 @@
+body{
+    background-image: url(img/background.jpg);
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+}
+.main-section{
+    position: absolute;
+    background-color: rgba (0,0,0,0.5);
+}
+.p1{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+.span{
+    color: #fbc531;
+}
+.p2{
+    color: white;
+    text-align: center;
+}
+.img{
+    position: relative;
+    display: inline;
+    width: 200px;
+    height: 200px;
+    left: 25%;
+}

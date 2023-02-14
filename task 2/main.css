@@ -1,0 +1,48 @@
+.head{
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+.p0{
+    padding-top: 5%;
+}
+.p1{
+    font-weight: normal;
+    font-size: large;
+    padding-top: 5%;
+}
+.span1{
+    color: #fbc531;
+    padding-left: 1%;
+}
+.span2{
+    color: #fbc531;
+}
+/* .image{
+    position: relative;
+} */
+.img{
+    width: 300px;
+    height: 300px;
+    padding-top: 5%;
+    position: relative;
+    top: 90%;
+    left: 20%;
+}
+.image-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.25s;
+}
+.image-overlay:hover{
+    opacity: 1;
+}
